@@ -1,0 +1,6 @@
+framework module LoanFramework {
+  umbrella header "LoanFramework.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module InstaCardFramework {
+  umbrella header "InstaCardFramework.h"
+  export *
+
+  module * { export * }
+}
