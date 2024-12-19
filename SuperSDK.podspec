@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/sreekarMoneyLink/SuperSDK.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = "13.0"
   spec.vendored_frameworks = [
-    "Framework/LoanFramework.xcframework",
-    "Framework/InstaCardFramework.xcframework"
+    "SuperSDK/Framework/LoanFramework.xcframework",
+    "SuperSDK/Framework/InstaCardFramework.xcframework"
   ]
   spec.source_files = "SuperSDK/**/*.{swift,h}"
   spec.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6']
