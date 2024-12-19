@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
     "SuperSDK/Framework/LoanFramework.xcframework",
     "SuperSDK/Framework/InstaCardFramework.xcframework"
   ]
-  spec.source_files = "SuperSDK/**/*.{swift,h}"
+  spec.source_files = "SuperSDK/**/*.{swift}"
   spec.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6']
 
 end
