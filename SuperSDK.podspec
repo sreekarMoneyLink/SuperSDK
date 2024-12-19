@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/sreekarMoneyLink/SuperSDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { 'sreekarMoneyLink' => 'sreekar.pv@montra.org' }
-  spec.source       = { :git => "https://github.com/sreekarMoneyLink/SuperSDK.git", :tag => "#{spec.version}" } }
+  spec.source       = { :git => "https://github.com/sreekarMoneyLink/SuperSDK.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = "13.0"
   spec.vendored_frameworks = [
     "Framework/LoanFramework.xcframework",
